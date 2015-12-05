@@ -1,0 +1,54 @@
+/* 
+ * 極悪けいじばん bbsn.cgi のためのスタイルシート。
+ *
+ * なまえ:
+ * */
+
+body {
+    padding-top:128px;
+    font-size:1.2em;
+    background: white;
+    color: dimgray;
+    text-align: center;
+
+}
+
+.form input, textarea {
+    border: #e0e0ff 4px solid;
+    background: #fff;
+}
+
+#posts {
+    /* 書き込みのラッパー */
+}
+
+#posts hr {
+    border: 0;
+    width: 85%;
+}
+
+#posts div.ps {
+    /* 書き込み */
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    background: #fafaff;
+}
+
+#captcha {
+    /* G社による iframe */
+    width: 320px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#captcha_iframe {
+    width: 500px;
+    height: 300px;
+    border: 0;
+}
+
+.errorwrite {
+    color: #F00;
+}
+
